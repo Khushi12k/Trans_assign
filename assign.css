@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    position: relative;
+}
+.box img{
+    width: 380px;
+    height: 210px;
+    border-radius: 20px;
+    margin: 0px 20px;
+    
+}
+.black{
+     width: 380px;
+    height: 210px;
+    border-radius: 10px;
+    margin: 20px;
+    position: absolute;
+    padding: 0px 40px;
+    top: -19px;
+    left: 1px;
+    border-radius: 20px;
+}
+.black:hover{
+    background-color: rgb(207, 51, 207);
+    opacity: 0.8;
+}
+.mini1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+}
+.box h3 {
+    position: absolute;
+    top: -1px;
+    left: 48px;
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+}
+.box a i {
+   position: absolute;
+    top: 150px;
+    left: 48px;
+      background-color: gold;
+    padding: 17px 15px;
+    border-radius: 100px;
+     color: white;
+}
+.box span a i {
+    position: absolute;
+    top: 150px;
+    left: 110px;
+     background-color: black;
+    padding: 17px 17px;
+    border-radius: 100px;
+    color: white;
+}
+.box h3 {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.box h1 {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.box a i {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.box span a i {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.box:hover h3 {
+     opacity: 1;
+     
+}
+.box:hover h1 {
+     opacity: 1;
+  
+}
+.box:hover a i {
+     opacity: 1;
+    
+}
+.box:hover span a i {
+     opacity: 1;
+   
+}
+.box h1 {
+    position: absolute;
+    top: 120px; 
+    left: 48px;
+    font-size: 25px;
+    color: white;
+    opacity: 0;
+    transition: top 0.5s ease;
+    opacity: 0.5 ease; 
+
+}
+
+.box:hover h1 {
+     top: 80px; 
+    opacity: 1;
+}
+.box:hover h3{
+     top:8px;
+    opacity:1;
+}
+.box h3 {
+    position: absolute;
+    opacity: 0;
+    transition: top 0.5s ease;
+    opacity: 0.5 ease; 
+
+}
+.mini2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mini2 img{
+    width: 380px;
+    height: 210px;
+    border-radius: 20px;
+    margin: 0px 20px;
+    
+}
